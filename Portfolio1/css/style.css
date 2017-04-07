@@ -1,0 +1,36 @@
+.logo>a>img{
+    height: 30px;
+    width: auto;
+    margin: 10px;
+}
+
+.navbar{
+    background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: rgb(0, 106, 148);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(0, 106, 148);
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgb(0, 106, 148);
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar{
+    background-color: rgb(255, 255, 255);   
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    font-family: "Cabin";
+    font-size: 14px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    font-weight: bold;
+}
+
+
