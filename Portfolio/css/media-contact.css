@@ -1,0 +1,137 @@
+
+@media all and(min-width: 510px),
+
+only screen and (        -webkit-min-device-pixel-ratio: 2)      and (min-width: 510px),
+only screen and (                min-resolution: 192dpi) and (min-width: 510px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 510px){
+input:focus ~ .floating-label1,
+input:not(:focus):valid ~ .floating-label1{
+  left: 40px;
+}
+input:focus ~ .floating-label2,
+input:not(:focus):valid ~ .floating-label2{
+left: 40px;
+}
+textarea:focus ~ .floating-label3,
+textarea:not(:focus):valid ~ .floating-label3
+{
+  left: 40px;
+}
+.floating-label1 {
+	left: 45px;
+}
+.floating-label2 {
+	left: 45px;
+}
+.floating-label3 {
+left: 45px;
+}
+}/*Ending of 510px*/
+
+@media all and(min-width: 768px),
+
+only screen and (        -webkit-min-device-pixel-ratio: 2)      and (min-width: 768px),
+only screen and (                min-resolution: 192dpi) and (min-width: 768px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
+input:focus ~ .floating-label1,
+input:not(:focus):valid ~ .floating-label1{
+  top:275px;
+  left: 50px;
+
+}
+input:focus ~ .floating-label2,
+input:not(:focus):valid ~ .floating-label2{
+top:338px;
+left: 50px;
+}
+textarea:focus ~ .floating-label3,
+textarea:not(:focus):valid ~ .floating-label3
+{
+  top:401px;
+  left: 50px;
+}
+.floating-label1 {
+	top:297px;
+	left: 60px;
+}
+.floating-label2 {
+	top:360px;
+	left: 60px;
+}
+.floating-label3 {
+	top:423px;
+	left: 60px;
+}
+}/*Ending of 768px*/
+
+@media all and(min-width: 1024px),
+
+only screen and (        -webkit-min-device-pixel-ratio: 2)      and (min-width: 1024px),
+only screen and (                min-resolution: 192dpi) and (min-width: 1024px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 1024px){
+input:focus ~ .floating-label1,
+input:not(:focus):valid ~ .floating-label1{
+  top:385px;
+  left: 70px;
+
+}
+input:focus ~ .floating-label2,
+input:not(:focus):valid ~ .floating-label2{
+top:448px;
+left: 70px;
+}
+textarea:focus ~ .floating-label3,
+textarea:not(:focus):valid ~ .floating-label3
+{
+  top:511px;
+  left: 70px;
+}
+.floating-label1 {
+	top:407px;
+	left: 75px;
+}
+.floating-label2 {
+	top:470px;
+	left: 75px;
+}
+.floating-label3 {
+	top:533px;
+	left: 75px;
+}
+}/*Ending of 1024px*/
+
+@media all and(min-width: 1330px),
+
+only screen and (        -webkit-min-device-pixel-ratio: 2)      and (min-width: 1330px),
+only screen and (                min-resolution: 192dpi) and (min-width: 1330px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 1330px){
+input:focus ~ .floating-label1,
+input:not(:focus):valid ~ .floating-label1{
+  top:385px;
+  left: 75px;
+
+}
+input:focus ~ .floating-label2,
+input:not(:focus):valid ~ .floating-label2{
+top:448px;
+left: 75px;
+}
+textarea:focus ~ .floating-label3,
+textarea:not(:focus):valid ~ .floating-label3
+{
+  top:511px;
+  left: 75px;
+}
+.floating-label1 {
+	top:407px;
+	left: 90px;
+}
+.floating-label2 {
+	top:470px;
+	left: 90px;
+}
+.floating-label3 {
+	top:533px;
+	left: 90px;
+}
+}/*Ending of 1330px*/

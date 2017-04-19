@@ -1,0 +1,853 @@
+.navbar{
+  margin-bottom: 0px;
+  border:none;
+  margin-right: 0px;
+  background-color: #FFFFFF;
+}
+.navbar-default{
+  background-color: #FFFFFF;
+}
+.nav-item{
+text-transform: uppercase;
+font-family: 'Cabin';
+font-size: 14px;
+color: #000000;
+letter-spacing: 0.32px;
+transition-property: background-color,color;
+transition-duration: 1s;
+transition-timing-function: ease-out;
+
+}
+
+.nav-item:hover{
+  transition-property: background-color,color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  background-color: #F3EFEB;
+  color: #FFFFFF;
+}
+.navbar-right{
+  margin-right: 10px;
+}
+.logo{
+  position: absolute;
+  height: 50px;
+  width: auto;
+  
+}
+.logo>a>img{
+  height: 30px;
+  width: auto;
+  
+  margin: 10px 0px 10px 10px;
+
+}
+
+.navbar-nav{
+  margin-top: 50px;
+  font-family: 'Cabin';
+
+}
+
+
+.hero{
+  width: 100%;
+  position: relative;
+  height: 200px;
+  background-image: url(../images/heroimage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding:0px 0px;
+  z-index: 1;
+}
+.hero-stuff{
+  
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  text-align: center;
+  top:30px;
+
+}
+.name{
+text-align: center;
+font-weight: bold;
+font-family: 'Raleway';
+font-size: 18px;
+
+color: #00ACF0;
+letter-spacing: 0.81px;
+}
+.designation{
+margin-top: 10px;  
+text-align: center;
+font-family: 'Raleway';
+font-size: 16px;
+color: #D1D1D1;
+letter-spacing: 0.54px;
+}
+
+.tagline{
+  margin-top: 10px;
+  text-align: center;
+font-family: 'Cabin';
+font-size: 13px;
+color: #D1D1D1;
+line-height: 10px;
+}
+.getintouch{
+  text-align: center;
+  margin-top: 20px; 
+}
+.getintouch-button{
+padding:10px 50px;
+background: #F3EFEB;
+border-radius: 100px;
+border:none;
+font-weight: bold;
+font-family: 'Cabin';
+font-size: 13px;
+color: #85847A;
+letter-spacing: 0.41px;
+}
+.project{
+  position: relative;
+  width:100%;
+  height: 360px;
+  margin: 20px 0px;
+  
+ /* background-color: silver;*/
+  font-family: 'Cabin';
+}
+.image{
+
+  /*background-color: red;*/
+  text-align: center;
+  height: 180px;
+  padding-top:20px;
+
+
+}
+
+.image>img{
+  height: 150px;
+  width: auto;
+
+}
+  
+.text{
+  padding-top:10px;
+ /* background-color: blue;*/
+  height:180px;
+  text-align: center;
+}
+.title{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  color: #006A94;
+  letter-spacing: 0.54px;
+
+}
+
+.para>p{
+  
+  line-height: 27px;
+  font-size:13px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Cabin';
+  
+  color: #000000;
+ }
+ .see-more{
+  background-color: #FFF;
+  text-align: center;
+}
+.see-more-button{
+text-transform: uppercase; 
+background: #FFF;
+border-radius: 100px;
+padding:10px 30px;
+font-family: 'Cabin';
+font-size: 13px;
+color: #006A94;
+letter-spacing: 0.41px;
+border:1px solid #006A94;
+}
+.lets-talk{
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+  background-color: #F2F2F2;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.talk-title{
+  position: absolute;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-family: 'Cabin';
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+
+}
+
+.contact-me{
+
+  padding: 0px 0px;
+  margin-top: 50px;
+  text-align: center;
+  position: absolute;
+  background-color: #F2F2F2;
+}
+.icons{
+  text-align: center;
+  
+  
+  height:40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.copyright{
+  
+  text-align: center;
+  
+  font-family: 'Cabin';
+  height: 40px;
+  
+
+
+}
+
+
+.footer{
+
+    margin-top: 0px;
+    height: 80px;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+.social-icon{
+  
+  height: 16px;
+  width: auto;
+  margin-right: 10px;
+}
+.footer .row{
+  margin:20px 0px;
+  height: 80px;
+}
+
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.about-hero{
+  background-image:url("../images/harsha-photo.png");
+}
+
+.about-para{
+
+font-family: 'Cabin';
+font-size: 13px;
+color: #000000;
+line-height: 25px;
+}
+
+
+.about-text p{
+  
+  width: 90%;
+  margin: 10px auto;
+
+}
+.full-form{
+  position: relative;
+  top:40px;
+ 
+font-family: 'Cabin';
+
+color: #979797;
+line-height: 35px;
+height: 460px;
+}
+
+.box{
+  border-radius: 0px;
+  border:none;
+  border-bottom: 1px solid #979797;
+  box-shadow: none;
+  width: 100%;
+  padding: 10px 20px;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  color: #979797; 
+  font-family: 'Cabin';
+
+
+}
+
+
+.contactme-tagline{
+  line-height: 30px;
+}
+.about-box{
+  width: 100%;
+  margin-top: 20px;
+  font-family: 'Cabin';
+
+}
+.submit{
+  margin-top: 0px;
+  background-color: #FFF;
+
+}
+
+.submit-button{
+  border-radius: 100px;
+}
+.content{
+  padding: 15px;
+}
+
+.baksa-name{
+
+color: #006A94;
+
+}
+
+.desc-sub{
+  text-transform: none;
+  text-align: center;
+  
+
+}
+
+.description{
+  
+  height: 140px;
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.desc-title{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Cabin';
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 0.54px;
+}
+.desc-content{
+
+
+font-family: 'Cabin';
+font-size: 11px;
+color: #000000;
+line-height: 25px;
+
+
+
+}
+
+.try{
+  width: 100%;
+  margin: 0 auto ;
+  float: none;
+  max-width: 600px;
+  text-align: left;
+}
+.white-bg{
+  background-color: #FFFFFF;
+}
+.grey-bg{
+  background-color: #F2F2F2;
+}
+
+.scope{
+    
+  width: 100%;
+  height: 245px;
+ 
+  padding-top: 10px;
+}
+
+
+.research {
+    
+
+    width: 100%;
+    height: 690px;
+    padding-top: 10px;
+}
+
+.persona {
+    width: 100%;
+    height: 290px;
+    padding-top: 10px;
+}
+
+.identity-and-branding {
+    width: 100%;
+    height: 450px;
+    padding-top: 10px;
+}
+
+.user-flows{
+ 
+  width: 100%;
+  height: 830px;
+  padding-top: 20px;
+}
+.uf{
+  padding-top: 0px;
+}
+.user-flows .uf>img{
+  width: 120px; 
+  height: auto;
+}
+
+.uf3{
+  top:-40px;
+}
+.uf4{
+  top:-20px;
+}
+
+.wireframes{
+  position: absolute;
+  top:2980px;
+  height: 1480px;
+  width: 100%;
+  padding-top: 10px;
+}
+.wf-second{
+  top:-170px;
+}
+.wf-third{
+  top:-180px;
+}
+.wf-fourth{
+  top:-190px;
+}
+
+.wf1{
+  visibility: hidden;
+  text-align: center;
+}
+.wf1>img{
+  visibility: hidden;
+  height:400px;
+  width: auto;
+}
+.wf2{
+  text-align: center;
+  top:-190px;
+}
+.wf2>img{
+width:auto;
+}
+.wf4{
+  top:-210px;
+}
+
+.wf4>img{
+  width: auto;
+  height: 200px;
+
+}
+.prototype{
+  position: absolute;
+  width: 100%;
+  top:4460px;
+  height: 90px;
+  
+  padding-top: 10px;
+  }
+
+.pr{
+  margin-top: 15px;
+  background-color: #FFF;
+  text-align: center;
+  width: 100%;
+  left: 0px;
+}
+.deployement{
+  width: 100%;
+  position: absolute;
+    top:4550px;
+    padding-top: 10px;
+
+}
+.dp{
+  top:200px;
+  margin-top:10px;
+  height: 40px;
+
+}
+.dp2{
+  position: absolute;
+  top:180px;
+  visibility: hidden;
+}
+
+.usability-test{
+  width: 100%;
+  position: absolute;
+  top:4800px;
+  padding-top: 10px;
+  }
+.lessons{
+  width: 100%;
+  position: absolute;
+  top:5000px;
+  padding-top: 10px;
+}
+.baksa-lets-talk{
+  position: absolute;
+  background-color: #FFF;
+   top:5310px;
+} 
+.baksa-lets-talk .contact-me{
+  background-color: #FFF;
+}
+.baksa-footer{
+  position: absolute;
+  top:5400px;
+  
+}
+.comp-analysis {
+    width: 100%;
+    height: 290px;
+    padding-top: 10px;
+}
+.comp-icon{
+  width: auto;
+  position: relative;
+
+}
+
+.comp-image{
+ text-align: center; 
+}
+
+.interviews {
+    width: 100%;
+    height: 290px;
+    padding-top: 10px;
+}
+.nomnom .user-flows .uf1{
+  height: 50px;
+  width: 100%;
+}
+.nomnom .user-flows .uf1>img{
+  height: 50px;
+  width: auto;
+  text-align: center;
+}
+.nomnom .user-flows .uf2{
+  height: 140px;
+  width: 100%;
+  text-align: center;
+}
+.nomnom .user-flows .uf2>img{
+  height: 140px;
+  width: auto;
+}
+.nomnom .user-flows .uf3{
+    top: 0px;
+    height: 250px;
+}
+.nomnom .user-flows .uf3>img {
+    height:250px;
+    width: auto;
+}
+.nomnom .wireframes{
+  top:4250px;
+  height: 1000px;
+}
+.nomnom .wireframes .wf>img{
+  width: auto;
+  margin-top: 0px;
+}
+.nomnom .wireframes .wf-para{
+  top:40px;
+}
+.nomnom .prototype .pr{
+  background-color: #F2F2F2;
+}
+.nomnom .usability-test .ut{
+  text-align: center;
+  margin-top: 10px;
+}
+.nomnom .footer{
+  position: absolute;
+  top:5840px;
+
+ 
+}
+.nomnom .image{
+  height: 130px;
+  padding-top: 0px;
+
+}
+.nomnom .description{
+  height: 350px;
+  margin-top: 0px;
+}
+.nomnom .scope{
+  height: 270px;
+}
+ .nomnom .icons .comp-icon>img{
+ height: 30px;
+
+}
+.nomnom .comp-analysis{
+  height: 550px;
+}
+.nomnom .interviews .interview-image>img{
+  height: 120px;
+  width: auto;
+}
+
+.nomnom .comp-analysis .para-2{
+  margin-top: 30px;
+}
+.nomnom .comp-analysis .comp-image{
+  margin-top: 30px;
+}
+.nomnom .interviews{
+  height: 1270px;
+}
+.nomnom .identity-and-branding{
+  height: 400px;
+}
+.nomnom .persona{
+  height: 310px;
+}
+.nomnom .user-flows {
+    width: 100%;
+    height: 780px;
+    padding-top: 20px;
+}
+.nomnom .lets-talk{
+  position: absolute;
+  top:5740px;
+}
+.nomnom .prototype{
+  position: absolute;
+  top:5250px;
+}
+.nomnom .usability-test {
+    top: 5340px;
+    height: 220px;
+}
+.nomnom .lessons {
+  
+    top: 5560px;
+
+}
+.nomnom .wireframes .wf5{
+  top:40px;
+}
+.nomnom-image{
+  padding-top: 20px;
+  height: 190px;
+}
+.nomnom .comp-analysis .comp-image>img {
+    
+    width: auto;
+}
+.nomnom .wireframes .wf{
+
+
+  width: auto;
+}
+.littlehope .nomnom-image {
+    padding-top: 20px;
+    height: 210px;
+}
+.littlehope .description{
+  height: 270px;
+}
+.littlehope .comp-analysis .comp-icon>img{
+  height: 10px;
+  width: auto;
+}
+.littlehope .user-flows .para3{
+  position: absolute;
+  width: 100%;
+  top: 5080px;
+}
+.littlehope .user-flows .para3 .desc-content{
+  text-align: center;
+}
+.littlehope .user-flows .para4{
+  position: absolute;
+  width: 100%;
+  top:5170px;
+}
+.littlehope .user-flows .para5{
+  top:5260px;
+}
+.littlehope .user-flows .para6{
+  top:5340px;
+}
+.littlehope .user-flows .para7{
+  top:5410px;
+}
+.littlehope .user-flows .para4 .desc-content{
+  text-align: center;
+}
+.littlehope .user-flows .uf>img{
+  height: auto;
+
+}
+.littlehope .user-flows {
+
+    height: 600px;
+
+}
+.littlehope .comp-analysis {
+  
+    height: 1220px;
+  
+}
+.littlehope .comp-analysis .comp-image>img{
+  height: auto;
+  width: 280px;
+
+}
+.littlehope .comp-analysis .para-2{
+  margin-top: 40px;
+}
+.littlehope .research{
+  height: 1380px;
+}
+.littlehope .research .survey-image>img{
+  height: auto;
+  width: 280px;
+}
+.littlehope .wireframes .wf-image>img{
+  height: auto;
+}
+.littlehope .persona .persona-image>img{
+  height: auto;
+  width: 280px;
+}
+.littlehope .identity-and-branding .persona-image>img{
+  height: auto;
+  width: 280px;
+}
+.littlehope .interviews {
+    
+    height: 470px;
+
+}
+.littlehope .persona{
+  height: 490px;
+}
+.littlehope .wireframes{
+  top:5465px;
+  height: 3440px;
+}
+.littlehope .prototype{
+  top:8900px;
+}
+.littlehope .usability-test {
+  top: 8990px;
+}
+.littlehope .identity-and-branding {
+    top: 21000px;
+    width: 100%;
+    height: 410px;
+}
+.littlehope .lessons{
+  top: 9180px;
+}
+.littlehope .user-flows .uf1{
+  width: 100%;
+  height: auto;
+}
+.littlehope .lets-talk{
+  top:3980px;
+}
+.littlehope .footer{
+  position: absolute;
+  top: 9560px;
+}
+ .littlehope .wireframes .wf-image>img {
+    height: auto;
+    width: 280px;
+}
+.littlehope .wireframes .wf1 {
+    visibility: visible;
+    top: 200px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+.littlehope .wireframes .wf2 {
+    
+    top: -30px;
+}
+.littlehope .wireframes .wf3 {
+    top: 90px;
+    left: 0px;
+    height: 350px;
+}
+ .littlehope .wireframes .para2{
+   top: 0px;
+  }
+  .littlehope .wireframes .para3{
+   top: 120px;
+  }
+  .littlehope .wireframes .para4{
+   top: -80px;
+  }
+  .littlehope .wireframes .wf4 {
+    
+    top: -110px;
+}
+.littlehope .wireframes .para5{
+   top: -40px;
+  }
+   .littlehope .wireframes .wf5 {
+    width: 280px;
+    height: 680px;
+    top: -60px;
+}
+.littlehope .wireframes .para6{
+   top: -30px;
+  }
+   .littlehope .wireframes .wf6 {
+    width: 100%;
+    height: 345px;
+    top: -50px;
+}
+
+  .littlehope .wireframes .para7{
+   top: -20px;
+  }
+
+  .contact-button{
+ 
+background: #006A94;
+border-radius: 100px;
+padding:5px 30px;
+font-family: 'Cabin';
+font-size: 13px;
+color: #FFFFFF;
+letter-spacing: 0.41px;
+  
+}
