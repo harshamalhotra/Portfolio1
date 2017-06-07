@@ -1,45 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact</title>
-	<title>Harsha Malhotra | Welcome</title>
+  <title>Harsha Malhotra | Baksa</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!--CSS --> 
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style1.css">
+  <link rel="stylesheet" type="text/css" href="css/style-baksa.css">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  	<link rel="stylesheet" type="text/css" href="css/contact_style.css">
-  	<link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/media-contact.css">
-    <link rel="stylesheet" type="text/css" href="css/media.css">
-
-  <!--Javascript -->
- 
- 
+  <!-- JAVASCRIPT -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <!-- <script type="text/javascript">"js/ajax.js"</script>  -->
-   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <!-- FONTS -->
-  <link href="https://fonts.googleapis.com/css?family=Cabin|Raleway" rel="stylesheet">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Lato|Varela+Round" rel="stylesheet">
+
 </head>
-
-<!-- <body class="contactme-body"> -->
-<body>
-
- <!-- HEADER -->
-  <div class="header">
+<body class="baksa">
+<div class="header">
   <div class = "navbar navbar-toggleable-md navbar-default navbar-light ">
-      <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#myNavbar">
-        <span class="one-bar icon-bar"></span>
-        <span class="one-bar icon-bar"></span>
-        <span class="one-bar icon-bar"></span>                        
-      </button>
+    <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#myNavbar">
+          <span class="one-bar icon-bar"></span>
+          <span class="one-bar icon-bar"></span>
+          <span class="one-bar icon-bar"></span>                        
+        </button>
   
-      <div class="logo"><a href="index.html"> <img src="images/logo.png"/> </a></div>
-      <div class="collapse navbar-collapse" id="myNavbar">
+    <div class="logo">
+      <a href="index.html"> 
+        <img src="images/logo.png"/>
+      </a>  
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right mr-auto">
            <li class="dropdown nav-item ">
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Projects <b class="caret"></b></a>
@@ -52,82 +45,77 @@
             <li class="nav-item"><a href="images/resume.pdf">Resume</a></li>
             <li class="nav-item"><a href="about.html">About</a></li>
             <li class="nav-item"><a href="contactme.html">Get in touch</a></li> 
-          </ul>  
+        </ul>  
       </div>
-  </div> 
+    </div> 
 </div> 
-  
 
-<!-- HERO -->
-  <div class="hero container-fluid">
-    <div class="hero-stuff">
-      <div class="row"><div class="contact-name name col-xs-12 col-sm-12 col-md-12 col-lg-12">DROP A LINE</div></div>
-         
-         <div class="row">
-            <div class="contactme-tagline tagline col-xs-12 col-sm-12 col-md-12 col-lg-12 ">Interested in working together? To get in touch, fill out the form below or email me at harsha.ux@gmail.com 
-            </div> 
-         </div>
-         
-         
-      
-    </div>
 
+  <!-- HERO -->
+<div class="contact-hero index-hero hero container-fluid">
+  <div class="text-row row">
+    <div class="hero-title col-md-12 col-lg-12">Drop a line</div>
   </div>
-
-
-<div id="thankyou_message"> Thank you for your interest! I will get back to you in some time!</div>
-
-<form action="https://script.google.com/macros/s/AKfycbyizx11ycerib4mkQGDoc-FomRZTMwBCWypC_1qg0dQFgHpn8Q/exec"
-      method="POST" id="gform">
-   
-   <div class = "form-group">
-    <input type="text" name="name" class="text-items form-control" required>
-    <span class="floating-label1">Your name</span>
-  </div>    
   
-  <div class = "form-group">
-    <input type="text" name="email" class="text-items form-control" required>
-    <span class="floating-label2">Your email</span>
+  <div class="text-row row">
+    <div class="tagline hero-designation col-md-12 col-lg-12">Interested in working together? To get in touch, fill out the form below or email me at harsha.ux@gmail.com </div>
   </div>
+</div>
+  
+  <!-- Thank you message-->
+<div class="text-row row">
+  <div id="thankyou_message" class="col-md-12 col-lg-12">Thank you for your interest! I will get back to you in some time!</a></div>
+</div>  
 
- 
+<br><br>
+
+<!-- FORM -->
+
+<form action="https://script.google.com/macros/s/AKfycbyizx11ycerib4mkQGDoc-FomRZTMwBCWypC_1qg0dQFgHpn8Q/exec" method="POST" id="gform">
 
   <div class = "form-group">
-        <textarea form="gform" name="message" rows="3" class="text-items form-control" required></textarea>
-        <span class="floating-label3">Tell me a little about your project</span>
+     <input type="text" name="name" class="text-items form-control" required placeholder="Your Name">
   </div>
 
-  <button type="submit" class="contact-button see-more-button btn btn-primary btn-sm text-center" id="contact-button">Submit</button>
+  <div class = "form-group">
+    <input type="text" name="email" class="text-items form-control" required placeholder="Your Email">
+  </div>
+
+  <div class = "form-group">
+    <textarea form="gform" name="message" rows="5" class="text-items form-control" required placeholder="Tell me about your project"></textarea>
+  </div>
+  
+  
+
+  <button type="submit" class="submit-button btn btn-primary" id="contact-button">Submit</button>
 
 </form>
-	
-</div>
+
+<!-- LET'S TALK -->
+<div class="text-row row">
+  <div class="index-title col-md-12 col-lg-12">Let's Talk</div>
+</div>    
+<div class="text-row row">
+  <div class="CTA-button topic-button topic-desc col-md-12 col-lg-12">
+    <a href="contactme.html" class="btn btn-primary">Get in Touch</a>
+  </div>
+</div>  
 
 <!-- FOOTER -->
-<div class="footer">
-  <div class="row">
-    <div class = "icons col-xs-12 col-sm-12 col-md-6 col-lg-6 icons">
-     <!--  <a href="#"><img class="social-icon" src="images/Behance.png" /></a> -->
-      <a href="https://www.linkedin.com/in/harshamalhotra/"><img class="social-icon" src="images/linkedln.png" /></a>
-      <a href="contactme.html"><img class="social-icon" src="images/mail.png" /></a>
-    </div>
-
-    <div class = "copyright col-xs-12 col-sm-12 col-md-6 col-lg-6">
-      <p>Designed and developed by Harsha Malhotra &copy; 2017</p>
-    </div>
+<div class="text-row row">
+  <div class = "icons col-md-12 col-lg-12">
+    <a href="https://www.linkedin.com/in/harshamalhotra/"><img class="social-icon" src="images/linkedln.png" /></a>
+        <a href="contactme.html"><img class="social-icon" src="images/mail.png" /></a>
   </div>
-</div>
 
+  <div class = "footer-text col-md-12 col-lg-12">
+    <p>Designed and developed by Harsha Malhotra &copy; 2017</p>
+  </div>
 
-
-
-<!-- SCRIPT -->
-
+</div>      
 
 <script data-cfasync="false" type="text/javascript"
 src="js/ajax.js"></script>
- 
-
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -137,6 +125,7 @@ src="js/ajax.js"></script>
   ga('create', 'UA-93963995-1', 'auto');
   ga('send', 'pageview');
 
-</script>  
+</script>
+
 </body>
 </html>

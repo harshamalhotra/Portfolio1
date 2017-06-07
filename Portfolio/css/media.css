@@ -5,41 +5,50 @@ only screen and (        -webkit-min-device-pixel-ratio: 2)      and (min-width:
 only screen and (                min-resolution: 192dpi) and (min-width: 375px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 375px){
    .research {
-     height: 590px;
+     height: 1450px;
    }
    .identity-and-branding {
-    height: 430px;
+    height: 790px;
    }
    .scope {
     height: 220px;
 }
+.hope{
+  top:40px;
+}
+.baksa{
+  top: 50px;
+}
+
 .user-flows{
-  height: 810px;
+  height: 820px;
 } 
 .wireframes{
-  top: 2820px;
-
+  
+  height: 1480px;
 }
 .prototype{
-  top: 4300px;
+  
 }
 .deployement{
-  top:4390px;
+  
+  height: 320px;
 }
 .dp{
   top:180px;
 }
 .usability-test{
-  top:4620px;
+  
+  height: 240px;
 }
 .lessons{
-  top:4790px;
+  top:4740px;
 }
-.baksa-lets-talk{
-  top:5100px;
+.baksa-lets-talk .talk-title{
+ top:-10px;
 }
 .baksa-footer{
-top:5200px;
+
 }
   
 }
@@ -51,7 +60,7 @@ only screen and (        -webkit-min-device-pixel-ratio: 2)      and (min-width:
 only screen and (                min-resolution: 192dpi) and (min-width: 425px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 425px){
    .research {
-     height: 490px;
+     height: 1440px;
    }
     .project{
       height: 330px;
@@ -68,22 +77,23 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 425px){
 }
 
 .description {
-    height: 120px;
+    height: 130px;
     width: 100%;
     padding-top: 10px;
     margin-top: 20px;
 }
 .scope{
   height: 220px;
+  padding-top: 20px;
  }
  .persona{
-  height: 270px;
+  height: 380px;
  }
  .identity-and-branding {
-    height: 390px;
+    height: 780px;
    }
 .user-flows{
-  height: 950px;
+  height: 980px;
 } 
 .user-flows .uf>img {
     width: 160px;
@@ -98,39 +108,77 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 425px){
 .uf4{
   top:135px;
 }
-.wireframes {
-    top: 2750px;
-}
+
 .wf-fourth{
-  top:-170px;
+  top:-190px;
 }
 .wf4>img {
    
     height: 250px;
 }
 .wf4{
-  top: -190px;
+  top: -200px;
 }
 .wireframes{
-  height: 1360px;
+  height: 1440px;
+  
 }
-.prototype {
-    top: 4110px;
+.baksa .prototype {
+    top:20px;
+    height: 130px;
+    position: relative;
+}
+.baksa .prototype .desc-title{
+  height: 30px;
+  top:-80px;
 }
 .deployement {
-    top: 4200px;
+    top:10px;
+    position: relative;
+}
+.deployement .row .desc-title {
+    top: 0px;
+}
+.deployement .row .desc-content {
+    top: 0px;
 }
 .usability-test {
-    top: 4430px;
+    top:0px;
+    height: 250px;
+    position: relative;
+}
+.baksa .usability-test .row .desc-title {
+    top: -135px;
+}
+.baksa .deployement .contact-me {
+    
+    top: 0px;
+}
+.baksa .usability-test .row .desc-content {
+    top: -135px;
 }
 .lessons {
-    top: 4600px;
+    
 }
-.baksa-lets-talk {
-    top: 4830px;
+.baksa .lessons .row .desc-title {
+    top: -140px;
 }
-.baksa-footer {
-    top: 4930px;
+
+.baksa-lets-talk .contact-me {
+    
+    top: -140px;
+}
+.baksa-footer .row .icons{
+    top:-130px;
+}
+.baksa .footer .copyright {
+    top: -130px;
+}
+.wf-third {
+    top: -180px;
+}
+.baksa .lessons .row .desc-content {
+    top: -130px;
 }
 }
 
@@ -178,24 +226,41 @@ only screen and (        -webkit-min-device-pixel-ratio: 2)      and (min-width:
 only screen and (                min-resolution: 192dpi) and (min-width: 768px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
     .hero{
-      height: 200px;
+      height: 300px;
       margin-bottom: 40px;
       
+    }
+    .name{
+      font-size: 2em;
+    }
+    .tagline{
+      display: inline-block;
+      margin-top: -45px;
     }
     .project{
       height: 370px;
     }
     .image{
       height: 200px;
-      padding-top: 0px;
+      padding-top: 50px;
     }
+
      .text{
       height: 200px;
     }
     .image>img{
-    height: 200px;
+    height: 300px;
+    
     width: auto;
-
+}
+.hope{
+  top:0px;
+}
+.baksa{
+  top:0px;
+}
+.getintouch{
+  margin-top: 0px;
 }
 .text{
   padding-top: 30px;
@@ -203,8 +268,9 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
 }
 .navbar-nav{
   margin-top: 0px;
-  font-family: 'cabin';
-
+  /*font-family: 'cabin';*/
+  font-family: 'Roboto', sans-serif;
+  margin-right: 34px;
 }
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color: #000;
@@ -219,46 +285,63 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
 .full-form{
   top:0px;
 }
-.baksa-image .image>img{
+.baksa-image .image>a>img{
   padding-top: 30px;
   height: 350px;
   width: auto;
   text-align: center;
 }
-
+.baksa-image{
+  height: 390px;
+}
 .desc-title{
   font-size: 16px;
 
+}
+.baksa .prototype {
+    top: 120px;
+    height: 40px;
+}
+.baksa .prototype .row{
+  position: relative;
+  top:10px;
+  height: 30px;
 }
 .desc-content{
   font-size: 13px;
 }
 .description {
-    height: 100px;
+    height: 120px;
 
     padding-top: 0px;
-    margin-top: 180px;
+    margin-top: 190px;
 }
 .scope{
-  height: 210px;
+  height: 180px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  top:-2  0px;
+  position: relative;
  }
 .research {
-    height: 420px;
-    margin-top: 10px;
+    height: 820px;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 .persona {
-    height: 320px;
-    padding-top: 10px;
+    height: 490px;
+    
 }
 .identity-and-branding {
-    height: 370px;
+    height: 770px;
     padding: 0px;
 }
 .uf{
   margin-top: 20px;
 }
 .user-flows{
-  height: 1000px;
+  height: 960px;
+  padding-top: 0px;
 }
 .desc-title{
   margin-top: 0px;
@@ -279,63 +362,110 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
 .wf1>img{
   visibility: visible;
   height:300px;
+  top:-35px;
+  position: relative;
 }
 .wf-second {
-    top: 110px;
+    top: 140px;
 }
 .wf2{
   top:120px;
 }
 .wf3{
-  top:150px; 
+  top:250px; 
 }
 .wf-third {
-    top: 160px;
+    top: 410px;
 }
 .wf-fourth {
     top: 190px;
 }
 .wf4 {
-    top: 190px;
+    top: 630px;
 }
 .wf4>img{
   height: 400px;
 }
 .prototype{
-  top:4850px;
+  top:5090px;
   height: 120px;
 }
 .deployement{
-  top: 4970px;
+  top: 130px;
+  height: 240px;
 }
 
 .dp {
-    top: 140px;
+    top: 160px;
 }
 .wf5{
-  top:160px;
+  top:370px;
 }
 .wf6{
-  top:180px;
+  top:490px;
 }
 .wireframes{
-  top:2890px;
-  height: 1970px;
+  
+  height: 2400px;
+}
+.baksa .usability-test .row .desc-title {
+    top: -180px;
+}
+.baksa .usability-test .row .desc-content {
+    top: -175px;
 }
 .usability-test{
-  top:5160px;
+  top:130px;
+  padding-top: 0px;
+  height: 180px;
 }
 
 .lessons{
-top: 5320px;
-}
-.baksa-lets-talk{
-top: 5490px;
-}
-.baksa-footer{
-  top: 5620px;
+top: 160px;
+position: relative;
 }
 
+.baksa .lessons .row .desc-title {
+    top: -170px;
+}
+.baksa .lessons .row .desc-content {
+    top: -160px;
+}
+.baksa-lets-talk{
+top: 50px;
+margin-top: 0px;
+height: 120px;
+}
+.baksa-lets-talk .contact-me {
+    top: -60px;
+}
+.baksa-lets-talk .talk-title {
+    top: -20px;
+}
+.baksa-footer{
+  top: 0px;
+  position: relative;
+}
+.footer .row {
+    margin: 00px 0px;
+  }
+  .baksa-footer .row .icons {
+    top: 0px;
+}
+.baksa .footer .copyright {
+    top: 0px;
+}
+.try{
+  
+  
+  max-width: 600px;
+  
+}
+.logo>a>img {
+    height: 30px;
+    width: auto;
+    margin: 10px 0px 10px 60px;
+}
 }
 
 @media all and(min-width: 1024px),
@@ -345,34 +475,44 @@ only screen and (                min-resolution: 192dpi) and (min-width: 1024px)
 only screen and (                min-resolution: 2dppx)  and (min-width: 1024px){
    .logo>a>img{
   height: 40px;
-  margin:10px 0px 10px 120px;
+  margin:10px 0px 10px 150px;
 }
     .nav-item{
-      font-size: 18px;
+      font-size: 14px;
     }
     .navbar-right{
-  margin-right: 50px;
+  margin-right: 190px;
 }
     .navbar{
       margin-bottom: 10px;
     }
     .hero{
-      height: 300px;
+      height: 500px;
 
       
   }
-  .hero-stuff{
-    top:60px;
+  .image>img {
+    height: 340px;
   }
+  .hero-stuff{
+    top:150px;
+  }
+  
   .name{
-    font-size: 24px;
+    font-size: 2.5em;
+    top:10px;
+  }
+  .baksa-name{
+    font-size: 1.5em;
   }
   .designation{
-    font-size:18px;
+    font-size:2em;
+    top:100px;
+
   }
   .tagline{
-    margin-top:20px;
-    font-size:16px;
+    margin-top:80px;
+    font-size:1.5em;
   }
   .getintouch{
     margin-top: 30px;
@@ -382,16 +522,17 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1024px)
 
   }
     .project{
-      height: 400px;
+      height: 550px;
     }
     .image{
-      height: 400px;
+      height: 340px;
       padding-top: 0px;
+      top:40px;
     }
      .text{
-      height: 400px;
+      height: 220px;
     }
-    .image>img{
+    .image>a>img{
     height: 340px;
   
 
@@ -401,7 +542,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1024px)
 
 }
 .title{
-  font-size: 20px;
+  font-size: 1.75em;
 }
 .para>p{
   text-align: left;
@@ -411,17 +552,22 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1024px)
   padding-right: 25px;
  
  }
-
+.hope {
+    top: 50px;
+}
+.baksa {
+    top: 60px;
+}
  .see-more-button{
   
 margin-top: 20px;
-padding:5px 50px;
+padding:10px 70px;
 
 letter-spacing: 0.41px;
 }
 
 .lets-talk{
-  margin-top: 0px;
+  margin-top: 120px;
   height: 130px;
 }
 .talk-title{
@@ -483,10 +629,10 @@ letter-spacing: 0.41px;
 
 .description {
 
-    height: 120px;
+    height: 135px;
     width: 100%;
-    padding-top: 15px;
-    margin-top: 0px;
+    padding-top: 0px;
+    margin-top: 10px;
 }
 .scope{
 
@@ -495,10 +641,16 @@ letter-spacing: 0.41px;
 
   
 }
+.scope .row{
+  height:30px;
+}
+.description .row{
+  height:30px;
+}
 .research {
    
     width: 100%;
-    height: 410px;
+    height: 520px;
     padding-top: 10px;
 }
 .persona {
@@ -507,19 +659,20 @@ letter-spacing: 0.41px;
     
 }
 .identity-and-branding {
-    height: 600px;
+    height: 560px;
     top: -10px;
+    padding-top: 20px;
 }
-.identity-and-branding .desc-title{
-  padding-top: 10px;
-}
+
 
 .desc-title{
   margin-top: 0px;
-  padding-top: 0px;
+padding-top: 0px; 
+top:10px;
 }
 .user-flows {
-  height: 1430px;
+  height: 1330px;
+  padding-top: 20px;
 }
 .user-flows .uf>img {
     width: 400px;
@@ -538,27 +691,47 @@ letter-spacing: 0.41px;
 }
 .wireframes {
     
-    top: 3840px;
-    height: 2250px;
+    top: 3760px;
+    height: 2090px;
+}
+.wf-second {
+    top: 10px;
 }
 .wireframes .desc-title{
   padding-top: 30px;
 }
 .wf1{
   visibility: visible;
+  height: 300px;
 }
 .wf1>img{
   visibility: visible;
   height:300px;
   
+
 }
+.wf2 {
+    top: 10px;
+}
+
+
 .wf2>img{
 
   height:325px;
 
 }
-.wf3{
-  left: -50px;
+.wf-third {
+    top: 10px;
+}
+.wf3>img{
+  width: 450px;
+  left: -70px;
+}
+.wf4 {
+    top: 10px;
+}
+.wf-fourth {
+    top: 10px;
 }
 .wf4>img{
 
@@ -566,7 +739,7 @@ letter-spacing: 0.41px;
 }
 .prototype{
   
-  top:6090px;
+  top:5850px;
   
   height: 100px;
   
@@ -579,7 +752,7 @@ letter-spacing: 0.41px;
 .deployement{
   
   
-  top:6190px;
+  top:5950px;
   padding-top: 10px;
   height: 510px;
 }
@@ -599,28 +772,34 @@ letter-spacing: 0.41px;
 }
 .usability-test{
   
-  top:6700px;
+  top:6470px;
   padding-top: 10px;
-  height: 150px;
+  height: 190px;
 }
 .lessons{
  
-  top:6850px;
+  top:6660px;
   padding-top: 10px;
   height: 270px;
 }
 .baksa-lets-talk{
  
-  top:7120px;
+  top:6930px;
  
 } 
 
 .baksa-footer{
  
-  top:7250px;
+  top:7040px;
 }
 .try{
   max-width: 900px;
+}
+.baksa .wireframes .image{
+  height: 320px;
+}
+.try{
+  max-width: 600px;
 }
 
 }
