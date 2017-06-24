@@ -127,7 +127,7 @@
 	border:none;
 	font-weight: bold;
 	text-transform: uppercase;
-	font-size: 1em;
+	font-size: 1.5em;
 	color: #FFF;
 	letter-spacing: 0.41px;
 	text-align: center;
@@ -137,12 +137,15 @@
 	margin: auto;
 }
 
+.submit-button>a{
+	font-size: 1em;
+}
 .CTA-button{
 	top:0.25em;
 	
 }
 
-.CTA-button>a{
+.CTA-button>a {
 	padding:10px 50px;
 	background: rgb(0, 106, 148);
 	border-radius: 100px;
@@ -162,7 +165,7 @@
 	font-size: 2.0em;
 	text-transform: uppercase;
 	text-align: center;
-	/*margin-top: 1.5em;*/
+	margin-top: 1.5em;
 	color: color: #333;
 }
 .icons{
@@ -356,3 +359,10 @@ form{
 	background-image: url(../images/baksa-git.jpg);
 }
 
+.github-bj{
+	background-image: url(../images/bamjam-git.png);
+}
+
+.index .project-section .index-title{
+	margin-top: 0em;
+}
